@@ -22,7 +22,7 @@ class App extends Component {
         <DiscordLink href="https://discord.gg/bt" target="_self">
           <img src={discord} alt="discord" />
         </DiscordLink>
-        <video autoPlay={true} loop={true} src={vid} />
+        <video autoPlay={true} loop={true} src={vid} muted={true} />
       </div>
     );
   }
